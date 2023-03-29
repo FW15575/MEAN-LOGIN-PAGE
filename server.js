@@ -42,8 +42,9 @@ app.listen(9992,function check(err)
 });
 
  
+// "mongodb+srv://zuberkhan034:*****@cluster0.ouo9x.mongodb.net/MEAN"
 // mongodb://localhost:27017/gbs
-mongoose.connect("mongodb+srv://zuberkhan034:*****@cluster0.ouo9x.mongodb.net/MEAN",
+mongoose.connect("mongodb://localhost:27017/gbs",
 {useNewUrlParser: true,  useUnifiedTopology: true },
 
 function checkDb(error)
